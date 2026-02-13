@@ -109,7 +109,7 @@ const App: React.FC = () => {
                                  <span className="text-gray-300 group-hover:text-p5-blue transition-colors"><ArrowRight size={16} /></span>
                                  <span className="text-lg font-medium text-gray-800 group-hover:text-gray-900">{lesson.title}</span>
                                </div>
-                               <span className="text-xs text-gray-400 font-mono opacity-0 group-hover:opacity-100 transition-opacity">READ -></span>
+                               <span className="text-xs text-gray-400 font-mono opacity-0 group-hover:opacity-100 transition-opacity">READ &rarr;</span>
                              </button>
                            ))}
                         </div>
