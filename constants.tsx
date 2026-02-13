@@ -365,7 +365,7 @@ void draw() {
             <li className="bg-white border border-gray-200 p-4 rounded-sm">
                 <span className="font-mono text-p5-blue font-bold">&& (AND)</span>
                 <p className="mt-2 text-gray-500">「A かつ B」。両方trueの時だけ実行。</p>
-                <code className="block mt-2 bg-gray-50 p-1 text-xs">if (x > 0 && x &lt; width)</code>
+                <code className="block mt-2 bg-gray-50 p-1 text-xs">{`if (x > 0 && x < width)`}</code>
             </li>
             <li className="bg-white border border-gray-200 p-4 rounded-sm">
                 <span className="font-mono text-p5-blue font-bold">|| (OR)</span>

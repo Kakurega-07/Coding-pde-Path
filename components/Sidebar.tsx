@@ -101,7 +101,7 @@ const Sidebar: React.FC<SidebarProps> = ({ currentView, onNavigate, isOpen, setI
         
         <div className="p-8 border-t border-gray-50">
            <a href="https://processing.org" target="_blank" className="text-xs text-gray-400 hover:text-p5-blue transition-colors font-mono block">
-             -> processing.org
+             {'-> processing.org'}
            </a>
         </div>
       </div>
