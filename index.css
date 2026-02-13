@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 以前 index.html に書いていたスタイルをここに貼る */
+body {
+  background-color: #FFFFFF;
+  color: #111827;
+  -webkit-font-smoothing: antialiased;
+}
